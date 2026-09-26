@@ -1,20 +1,20 @@
 # video-server
 
-نطوّر منظومة محلية لإنتاج الفيديو من مشاهد متعددة، تجمع إعداد المشروع وتوليد الوسائط ومراجعة النتائج وتسليم الفيديو النهائي في سير عمل واحد.
+We build a local video production system that brings project planning, AI generation, review, and final delivery into one workflow.
 
-## ماذا تفعل المنظومة؟
+## What it does
 
-1. تنظيم المشاريع والمشاهد والشخصيات والملفات المرجعية.
-2. توليد صور بداية ومقاطع فيديو باستخدام ComfyUI ونماذج محلية.
-3. حفظ إصدارات النتائج وإعدادات التوليد لمراجعتها واعتمادها.
-4. تجميع المقاطع المعتمدة وإنتاج ملف MP4 نهائي باستخدام FFmpeg.
+1. Organizes video projects, scenes, characters, and reference assets.
+2. Generates scene keyframes and video clips with ComfyUI and local models.
+3. Stores generation versions and settings for review and approval.
+4. Combines approved clips into a final MP4 with FFmpeg.
 
-## المكونات
+## Components
 
-| المكون | دوره |
+| Component | Role |
 | --- | --- |
-| Hermes Video Server | واجهة Studio وواجهات API وإدارة البيانات والمهام والتسليم |
-| ComfyUI | تنفيذ مسارات توليد الصور والفيديو |
-| Hermes Deployment | تشغيل الخدمات المحلية ومراقبتها |
+| Hermes Video Server | Studio interface, API, project data, jobs, and delivery |
+| ComfyUI | Image and video generation workflows |
+| Hermes Deployment | Local services, monitoring, and operations |
 
-تعتمد المنظومة حاليًا على تثبيت محلي. مستودعات التطوير خاصة؛ لذلك لا تظهر ملفاتها أو روابط توثيقها للزوار غير الأعضاء.
+The current installation runs locally. Development repositories are private and are not visible to visitors outside the organization.
